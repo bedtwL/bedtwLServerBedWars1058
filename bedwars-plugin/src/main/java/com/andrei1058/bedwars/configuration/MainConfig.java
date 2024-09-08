@@ -346,8 +346,8 @@ public class MainConfig extends ConfigManager {
         //Finished old configuration conversion
 
         //set default server language
-        String whatLang = "en";
-        File[] langs = new File(plugin.getDataFolder(), "/Languages").listFiles();
+        String whatLang = "bw";
+        File[] langs = new File("D:/_SERVER/_bedtwLMinecraftServer/_Languages").listFiles();
         if (langs != null) {
             for (File f : langs) {
                 if (f.isFile()) {
